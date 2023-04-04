@@ -4,12 +4,17 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 .search-box {
     position: absolute;
     top: 5%;
-    left: 80%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transform: translate(-50%, -50%);
     background: #C71585;
     border-radius: 40px;
